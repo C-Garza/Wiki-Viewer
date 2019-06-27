@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Wikipedia Viewer</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="wiki.css">
+    <link href="https://fonts.googleapis.com/css?family=Bitter|Lato|Lora" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js" integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" integrity="sha256-KM512VNnjElC30ehFwehXjx1YCHPiQkOPmqnrWtpccM=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="wiki.js"></script>
+  </head>
+  <body> 
+    <div id="container">
+      <header>
+      <h1>Wikipedia Viewer</h1>
+      <div class="search">
+        <input id="search-term"></input>
+        <button type="submit" class="search-icon"><i class="fa fa-search"></i></button>
+        <div id="menu-length"></div>
+      </div>
+      <div class="search-buttons">
+      <div class="search-button">
+        <button class="wiki-search">Wiki Search</button>
+      </div>
+      <div class="random">
+        <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank" class="random-button">Random Article</a>
+      </div>
+      </div>
+      </header>
+    <section>
+      <p class="search-hits"></p>
+      <div class="results-container">
+        <div id="results"></div>
+      </div>
+      <button id="less">Less Results</button>
+      <button id="more">More Results</button>
+    </section>
+    </div>
+    <footer>
+      <p class="footer-about">About Wikipedia Trademark And Page</p>
+      <div class="footer-close hide"><i class="fa fa-times" aria-hidden="true"></i></div>
+      <p class="footer-about-section hide">Wikipedia, The unified mark, is a trademark of the Wikimedia Foundation and is used with the permission of the Wikimedia Foundation. I am not endorsed by or affiliated with the Wikimedia Foundation.</p>
+      <p class="footer-about-section hide">Pen by Christian Garza</p>
+  </footer>
+  </body>
+</html>
